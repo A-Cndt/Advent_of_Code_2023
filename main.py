@@ -27,7 +27,7 @@ import pathlib
 #%% Constants and global variables
 date:datetime.date = datetime.date.today()
 day:int = int(date.strftime('%d'))
-
+days:list = numpy.arange(1, day+1, 1)
 #%% runDay
 def runDay(day:int = day, part:str = "a"):
     """
@@ -52,7 +52,7 @@ def runDay(day:int = day, part:str = "a"):
 def makeDay():
     """
     """
-    os.mkdir("Day{day}")
+    os.mkdir(f"./Day{day}")
 
     pathlib.Path(f"./Day{day}/example.txt").touch()
     pathlib.Path(f"./Day{day}/input.txt").touch()
@@ -82,7 +82,7 @@ if __name__ == "__main__" :
                                (c) {__copyright__}
 
                                - Current Date: {date}
-                               - Available Days: {numpy.arange(1, day+1, day)}
+                               - Available Days: {days}
 
           ''')
 
@@ -91,7 +91,7 @@ if __name__ == "__main__" :
     # Check if current day repository exist
     if not os.path.isdir(f"./Day{day}"):
         print("Current Day repository does not exist")
-        ans = input("Do you want to create it ? [y/n]")
+        ans = input("Do you want to create it ? [y/n] > ")
         if ans.lower() == "y":
             makeDay()
     else:
