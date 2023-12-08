@@ -8,7 +8,7 @@ Advent of Code 2023 - My answers with Python
 * [Day 5](https://adventofcode.com/2023/day/5) : Part 1 ✔️, Part 2 ✔️
 * [Day 6](https://adventofcode.com/2023/day/6) : Part 1 ✔️, Part 2 ✔️
 * [Day 7](https://adventofcode.com/2023/day/7) : Part 1 ✔️, Part 2 ✔️
-* [Day 8](https://adventofcode.com/2023/day/8) : Part 1 ❌, Part 2 ❌
+* [Day 8](https://adventofcode.com/2023/day/8) : Part 1 ✔️ Part 2 ✔️
 * [Day 9](https://adventofcode.com/2023/day/9) : Part 1 ❌, Part 2 ❌
 * [Day 10](https://adventofcode.com/2023/day/10) : Part 1 ❌, Part 2 ❌
 * [Day 11](https://adventofcode.com/2023/day/11) : Part 1 ❌, Part 2 ❌
